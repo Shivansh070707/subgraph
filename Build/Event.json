@@ -1,0 +1,52 @@
+{
+  "address": "0xBED1F43Ad30ca524E52D0B6187F8083B8B7c4178",
+  "network": {
+    "name": "goerli",
+    "chainId": 5
+  },
+  "abi": [
+    {
+      "type": "event",
+      "anonymous": false,
+      "name": "Event",
+      "inputs": [
+        {
+          "type": "string",
+          "name": "name",
+          "indexed": false
+        },
+        {
+          "type": "uint256",
+          "name": "num",
+          "indexed": false
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "name": "set",
+      "constant": false,
+      "payable": false,
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "num"
+        }
+      ],
+      "outputs": []
+    },
+    {
+      "type": "function",
+      "name": "set1",
+      "constant": false,
+      "payable": false,
+      "inputs": [
+        {
+          "type": "uint256",
+          "name": "num"
+        }
+      ],
+      "outputs": []
+    }
+  ]
+}
